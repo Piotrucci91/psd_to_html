@@ -1,0 +1,140 @@
+
+<!doctype html>
+<html>
+     <head>
+     <meta charset="UTF-8" />
+     <title>formulasz</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     </head>
+     <body>
+
+         <header>
+            <img src="logo_top.png">
+
+         </header>
+         <div id="container">
+
+
+             <div class="column">
+
+				<h1>Register Form</h1>
+
+
+                <div class="formwrap">
+
+                   <form id="userform">
+                      <div class="inputek">
+							<label for="reg-username"></label>
+							<input type="text" class="input"  name="username" placeholder="Username"  class="input1" id="reg-username">
+                      </div>
+                       <div class="inputek">
+							<label for="reg-password"></label>
+                           <input type="text" class="input"  name="password" placeholder="Password" id="reg-password">
+                      </div>
+                       <div class="inputek">
+							<label for="reg-confpassword"></label>
+                           <input type="text" class="input"  name="confpassword" placeholder="Confirm Password" id="reg-confpassword">
+                      </div>
+					  <div class="inputek">
+							<label for="reg-email"></label>
+                           <input type="text" class="input"  name="email" placeholder="E-mail" id="reg-email">
+                      </div>
+					  <div class="inputek">
+						<label for="reg-location"></label>
+						<select id="location" name="location" placeholder="Your Location" class = "select" id ="reg-location">
+									<option disabled="" selected="" hidden="">Your Location</option>
+									<option value="europe">Europe</option>
+									<option value="asia">Asia</option>
+									<option value="africa">Africa</option>
+						</select>
+						</div>
+
+						<button type="submit" class="btn-long">Sign Up</button>
+                   </form>
+                </div>
+
+
+				<h1>Send E-mail</h1>
+
+                <div class="formwrap">
+                   <form id="userform">
+                      <div class="inputek">
+							<label for="mail-username"></label>
+                           <input type="text" class="input"  name="name" placeholder="Your Name" id="mail-username">
+                      </div>
+                       <div class="inputek">
+							<label for="mail-email"></label>
+                           <input type="text" class="input"  name="email" placeholder="Your E-mail" id="mail-email">
+                      </div>
+
+                           <textarea name="mailtext" form="userform" placeholder="Type your message here"></textarea>
+
+					  <button type="submit" class="btn-long">Send E-Mail</button>
+                   </form>
+                </div>
+
+             </div>
+
+             <div class="column">
+
+				<h1>Sign In Form</h1>
+				<div class="formwrap">
+					<form id="userform">
+                      <div class="inputek">
+							<label for=""></label>
+                           <input type="text" class="input"  name="username" placeholder="Username" id="reg-username">
+                      </div>
+                       <div class="inputek">
+							<label for=""></label>
+                           <input type="text" class="input"  name="username" placeholder="Password" id="reg-password">
+                      </div>
+          <div class="checkbox-container">
+
+					 <input type ="checkbox" class="squaredOne" checked>
+            <label for="squaredOne"><span><span></span></span>Remember Me</label></input>
+          <button type="submit" class="btn-short btn-right">Sign In</button>
+          
+          </div>
+                   </form>
+                </div>
+
+				<h1>Recovery Form</h1>
+
+                <div class="formwrap">
+                   <form id="userform">
+                      <div class="inputek">
+							<label for=""></label>
+                           <input type="text" class="input"  name="email" placeholder="Your E-mail" id="rec-email">
+                      </div>
+                       <div class="inputek">
+							<label for=""></label>
+                           <input type="text" class="input"  name="phonenumber" placeholder="Your Phone Number" id="rec-phone">
+                      </div>
+                       <button type="submit" class="btn-short">Send</button>
+					   <button type="submit" class="btn-short btn-right">Done</button>
+                   </form>
+                </div>
+
+				<h1>Subscribe Form</h1>
+
+                <div class="formwrap">
+                   <form id="userform">
+
+                      <div class="inputek">
+						<label for=""></label>
+                           <input type="text" class="input"  name="email" placeholder="Your E-mail" id="sub-email">
+                      </div>
+					   <button type="submit" class="btn-short">Subscribe</button>
+                      <button type="submit" class="btn-short btn-red btn-right">No, Thanks</button>
+                   </form>
+                </div>
+
+            <footer>
+            <div id="logobot"><img src="logo.png"></div>
+             </div>
+           </footer>
+
+
+        </div>
+     </body>
+</html>
